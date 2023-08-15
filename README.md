@@ -3,18 +3,18 @@
 Lang   : Micropython 
 Tested : 1.8 and 1.9.3
 
-##WiFi manager for ESP8266 - ESP12 - ESP32 for micropython 
+## WiFi manager for ESP8266 - ESP12 - ESP32 for micropython 
 
-###Main Features:
+### Main Features:
 - Web based connection manager 
 - Save wifi password in "wifi.dat" (csv format) 
 - Easy to apply 
 
-###Usage:
+### Usage:
 Upload main.py and wifimgr.py to ESP. 
 Write your code into main.py or import it from main.py. 
 
-###Logic:
+### Logic:
 - Step 1: Check "wifi.dat" file and try saved networks/passwords.
 - Step 2: Publish web page to configure new wifi. 
 - Step 3: Save network/password to "wifi.dat" file. 
